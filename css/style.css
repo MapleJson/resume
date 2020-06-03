@@ -1,3 +1,6 @@
+* {
+	touch-action: pan-y;
+}
 body, html {
 	font-family: microsoft yahei, sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -294,7 +297,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4d03f', end
 	text-shadow: 0 0 1px #666;
 }
 #about img {
-	margin-top: 150px;
+	margin-top: 200px;
 	margin-left: 10px;
 }
 @media(max-width:990px) {

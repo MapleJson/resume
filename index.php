@@ -70,7 +70,7 @@
                     <a class="page-scroll" href="#contact">联系方式</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="https://52zoe.cn" target="_blank">个人网站</a>
+                    <a class="page-scroll" href="https://52zoe.com" target="_blank">个人网站</a>
                 </li>
             </ul>
         </div>
@@ -95,7 +95,7 @@
         </div>
     </div>
 </header>
-<div class="copyrights">Maple简历 <a href="https://52zoe.cn">PHP工程师</a></div>
+<div class="copyrights">Maple简历 <a href="https://52zoe.com">PHP工程师</a></div>
 <!-- Services Section -->
 <div id="services" class="text-center">
     <div class="container">
@@ -109,7 +109,7 @@
                 <h4><strong>个人信息</strong></h4>
                 <p>
                     英文名: Maple &nbsp;性别：男</br>
-                    年龄: 25岁 籍贯：湖北
+                    年龄: <?php echo (int)date('Y')-1993; ?>岁 籍贯：湖北
                 </p>
             </div>
             <div class="col-md-3 col-sm-6 service"><i class="fa fa-code"></i>
@@ -135,131 +135,131 @@
         </div>
     </div>
 </div>
-<!-- Portfolio Section -->
+<!-- Portfolio Section-->
 <!--<div id="works">-->
-    <!--<div class="container"> &lt;!&ndash; Container &ndash;&gt;-->
-        <!--<div class="section-title text-center center">-->
-            <!--<h2>项目 <strong>经验</strong></h2>-->
-            <!--<hr>-->
-            <!--<div class="clearfix"></div>-->
-            <!--<p>主要涉及电商，平台，游戏，包括PC端，手机端，微信端等等，主要技术是PHP+MYSQL+REDIS</p>-->
-        <!--</div>-->
-        <!--<div class="categories">-->
-            <!--<ul class="cat">-->
-                <!--<li>-->
-                    <!--<ol class="type">-->
-                        <!--<li><a href="#" data-filter="*" class="active">所有</a></li>-->
-                        <!--<li><a href="#" data-filter=".web">PC端</a></li>-->
-                        <!--<li><a href="#" data-filter=".app">移动端</a></li>-->
-                        <!--<li><a href="#" data-filter=".branding">响应式</a></li>-->
-                    <!--</ol>-->
-                <!--</li>-->
-            <!--</ul>-->
-            <!--<div class="clearfix"></div>-->
-        <!--</div>-->
-        <!--<div class="row">-->
-            <!--<div class="portfolio-items">-->
-
-                <!--<div class="col-sm-6 col-md-3 col-lg-3 web">-->
-                    <!--<div class="portfolio-item">-->
-                        <!--<div class="hover-bg">-->
-                            <!--<div class="hover-text">-->
-                                <!--<h4><a href='http://www.ymjihe.com' target='_blank' title="欧工商城">欧工商城</a></h4>-->
-                                <!--<small>技术：html+css+js</small>-->
-                                <!--<div class="clearfix"></div>-->
-                                <!--<i class="fa fa-search"></i></div>-->
-                            <!--<img src="img/portfolio/01.jpg" class="img-responsive" alt="欧工商城"></div>-->
-                    <!--</div>-->
-                <!--</div>-->
-
-                <!--<div class="col-sm-6 col-md-3 col-lg-3 web">-->
-                    <!--<div class="portfolio-item">-->
-                        <!--<div class="hover-bg">-->
-                            <!--<div class="hover-text">-->
-                                <!--<h4><a href="http://www.ymjihe.com" target='_blank' title="财树理财">财树理财</a></h4>-->
-                                <!--<small>技术：HTML+CSS+JQuery</small>-->
-                                <!--<div class="clearfix"></div>-->
-                                <!--<i class="fa fa-search"></i></div>-->
-                            <!--<img src="img/portfolio/02.jpg" class="img-responsive" alt="财树理财"></div>-->
-                    <!--</div>-->
-                <!--</div>-->
-
-                <!--<div class="col-sm-6 col-md-3 col-lg-3 web">-->
-                    <!--<div class="portfolio-item">-->
-                        <!--<div class="hover-bg">-->
-                            <!--<div class="hover-text">-->
-                                <!--<h4><a href="http://www.ymjihe.com" target='_blank' title="IT技术之家">IT技术之家</a></h4>-->
-                                <!--<small>技术：Bootstrap+JQuery</small>-->
-                                <!--<div class="clearfix"></div>-->
-                                <!--<i class="fa fa-search"></i></div>-->
-                            <!--<img src="img/portfolio/03.jpg" class="img-responsive" alt="IT技术之家"></div>-->
-                    <!--</div>-->
-                <!--</div>-->
-
-                <!--<div class="col-sm-6 col-md-3 col-lg-3 web">-->
-                    <!--<div class="portfolio-item">-->
-                        <!--<div class="hover-bg">-->
-                            <!--<div class="hover-text">-->
-                                <!--<h4><a href='http://www.ymjihe.com' target='_blank' title="久久基因">久久基因</h4>-->
-                                <!--<small>技术：Bootstrap+JQuery</small>-->
-                                <!--<div class="clearfix"></div>-->
-                                <!--<i class="fa fa-search"></i></div>-->
-                            <!--<img src="img/portfolio/04.jpg" class="img-responsive" alt="久久基因"></div>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-sm-6 col-md-3 col-lg-3 web">-->
-                    <!--<div class="portfolio-item">-->
-                        <!--<div class="hover-bg">-->
-                            <!--<div class="hover-text">-->
-                                <!--<h4><a href='http://www.ymjihe.com' target='_blank' title="纵横基因">纵横基因</a></h4>-->
-                                <!--<small>技术：HTML+CSS+JQuery</small>-->
-                                <!--<div class="clearfix"></div>-->
-                                <!--<i class="fa fa-search"></i></div>-->
-                            <!--<img src="img/portfolio/05.jpg" class="img-responsive" alt="纵横基因">-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-sm-6 col-md-3 col-lg-3 branding">-->
-                    <!--<div class="portfolio-item">-->
-                        <!--<div class="hover-bg">-->
-                            <!--<div class="hover-text">-->
-                                <!--<h4><a href="http://www.ymjihe.com" target='_blank' title="浙江网新恒天UED">浙江网新恒天UED</a></h4>-->
-                                <!--<small>技术：Bootstrap+JQuery</small>-->
-                                <!--<div class="clearfix"></div>-->
-                                <!--<i class="fa fa-search"></i></div>-->
-                            <!--<img src="img/portfolio/06.jpg" class="img-responsive" alt="浙江网新恒天UED"></div>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-sm-6 col-md-3 col-lg-3 branding app web">-->
-                    <!--<div class="portfolio-item">-->
-                        <!--<div class="hover-bg">-->
-                            <!--<div class="hover-text">-->
-                                <!--<h4><a href="https://52zoe.cn" target='_blank' title="个人博客">个人博客</a></h4>-->
-                                <!--<small>技术：PHP+MySQL+Laravel</small>-->
-                                <!--<div class="clearfix"></div>-->
-                                <!--<i class="fa fa-search"></i></div>-->
-                            <!--<img src="img/portfolio/07.jpg" class="img-responsive" alt="个人博客"></div>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-sm-6 col-md-3 col-lg-3 web app">-->
-                    <!--<div class="portfolio-item">-->
-
-                        <!--<div class="hover-bg">-->
-                            <!--<div class="hover-text">-->
-                                <!--<h4><a href='http://www.ymjihe.com' target='_blank' title="软装大师">软装大师 </a></h4>-->
-                                <!--<small>技术：Bootstrap+JQuery</small>-->
-                                <!--<div class="clearfix"></div>-->
-                                <!--<i class="fa fa-search"></i>-->
-                            <!--</div>-->
-                            <!--<img src="img/portfolio/08.jpg" class="img-responsive" alt="软装大师">-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
+<!--    <div class="container"> &lt;!&ndash; Container &ndash;&gt;-->
+<!--        <div class="section-title text-center center">-->
+<!--            <h2>项目 <strong>经验</strong></h2>-->
+<!--            <hr>-->
+<!--            <div class="clearfix"></div>-->
+<!--            <p>主要涉及电商，平台，游戏，包括PC端，手机端，微信端等等，主要技术是PHP+MYSQL+REDIS</p>-->
+<!--        </div>-->
+<!--        <div class="categories">-->
+<!--            <ul class="cat">-->
+<!--                <li>-->
+<!--                    <ol class="type">-->
+<!--                        <li><a href="#" data-filter="*" class="active">所有</a></li>-->
+<!--                        <li><a href="#" data-filter=".web">PC端</a></li>-->
+<!--                        <li><a href="#" data-filter=".app">移动端</a></li>-->
+<!--                        <li><a href="#" data-filter=".branding">响应式</a></li>-->
+<!--                    </ol>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--            <div class="clearfix"></div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="portfolio-items">-->
+<!---->
+<!--                <div class="col-sm-6 col-md-3 col-lg-3 web">-->
+<!--                    <div class="portfolio-item">-->
+<!--                        <div class="hover-bg">-->
+<!--                            <div class="hover-text">-->
+<!--                                <h4><a href='http://www.ymjihe.com' target='_blank' title="欧工商城">欧工商城</a></h4>-->
+<!--                                <small>技术：html+css+js</small>-->
+<!--                                <div class="clearfix"></div>-->
+<!--                                <i class="fa fa-search"></i></div>-->
+<!--                            <img src="img/portfolio/01.jpg" class="img-responsive" alt="欧工商城"></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="col-sm-6 col-md-3 col-lg-3 web">-->
+<!--                    <div class="portfolio-item">-->
+<!--                        <div class="hover-bg">-->
+<!--                            <div class="hover-text">-->
+<!--                                <h4><a href="http://www.ymjihe.com" target='_blank' title="财树理财">财树理财</a></h4>-->
+<!--                                <small>技术：HTML+CSS+JQuery</small>-->
+<!--                                <div class="clearfix"></div>-->
+<!--                                <i class="fa fa-search"></i></div>-->
+<!--                            <img src="img/portfolio/02.jpg" class="img-responsive" alt="财树理财"></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="col-sm-6 col-md-3 col-lg-3 web">-->
+<!--                    <div class="portfolio-item">-->
+<!--                        <div class="hover-bg">-->
+<!--                            <div class="hover-text">-->
+<!--                                <h4><a href="http://www.ymjihe.com" target='_blank' title="IT技术之家">IT技术之家</a></h4>-->
+<!--                                <small>技术：Bootstrap+JQuery</small>-->
+<!--                                <div class="clearfix"></div>-->
+<!--                                <i class="fa fa-search"></i></div>-->
+<!--                            <img src="img/portfolio/03.jpg" class="img-responsive" alt="IT技术之家"></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="col-sm-6 col-md-3 col-lg-3 web">-->
+<!--                    <div class="portfolio-item">-->
+<!--                        <div class="hover-bg">-->
+<!--                            <div class="hover-text">-->
+<!--                                <h4><a href='http://www.ymjihe.com' target='_blank' title="久久基因">久久基因</h4>-->
+<!--                                <small>技术：Bootstrap+JQuery</small>-->
+<!--                                <div class="clearfix"></div>-->
+<!--                                <i class="fa fa-search"></i></div>-->
+<!--                            <img src="img/portfolio/04.jpg" class="img-responsive" alt="久久基因"></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-sm-6 col-md-3 col-lg-3 web">-->
+<!--                    <div class="portfolio-item">-->
+<!--                        <div class="hover-bg">-->
+<!--                            <div class="hover-text">-->
+<!--                                <h4><a href='http://www.ymjihe.com' target='_blank' title="纵横基因">纵横基因</a></h4>-->
+<!--                                <small>技术：HTML+CSS+JQuery</small>-->
+<!--                                <div class="clearfix"></div>-->
+<!--                                <i class="fa fa-search"></i></div>-->
+<!--                            <img src="img/portfolio/05.jpg" class="img-responsive" alt="纵横基因">-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-sm-6 col-md-3 col-lg-3 branding">-->
+<!--                    <div class="portfolio-item">-->
+<!--                        <div class="hover-bg">-->
+<!--                            <div class="hover-text">-->
+<!--                                <h4><a href="http://www.ymjihe.com" target='_blank' title="浙江网新恒天UED">浙江网新恒天UED</a></h4>-->
+<!--                                <small>技术：Bootstrap+JQuery</small>-->
+<!--                                <div class="clearfix"></div>-->
+<!--                                <i class="fa fa-search"></i></div>-->
+<!--                            <img src="img/portfolio/06.jpg" class="img-responsive" alt="浙江网新恒天UED"></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-sm-6 col-md-3 col-lg-3 branding app web">-->
+<!--                    <div class="portfolio-item">-->
+<!--                        <div class="hover-bg">-->
+<!--                            <div class="hover-text">-->
+<!--                                <h4><a href="https://52zoe.com" target='_blank' title="个人博客">个人博客</a></h4>-->
+<!--                                <small>技术：PHP+MySQL+Laravel</small>-->
+<!--                                <div class="clearfix"></div>-->
+<!--                                <i class="fa fa-search"></i></div>-->
+<!--                            <img src="img/portfolio/07.jpg" class="img-responsive" alt="个人博客"></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-sm-6 col-md-3 col-lg-3 web app">-->
+<!--                    <div class="portfolio-item">-->
+<!---->
+<!--                        <div class="hover-bg">-->
+<!--                            <div class="hover-text">-->
+<!--                                <h4><a href='http://www.ymjihe.com' target='_blank' title="软装大师">软装大师 </a></h4>-->
+<!--                                <small>技术：Bootstrap+JQuery</small>-->
+<!--                                <div class="clearfix"></div>-->
+<!--                                <i class="fa fa-search"></i>-->
+<!--                            </div>-->
+<!--                            <img src="img/portfolio/08.jpg" class="img-responsive" alt="软装大师">-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 <!--</div>-->
-<!-- About Section -->
+<!-- About Section-->
 <div id="about">
     <div class="container">
         <div class="section-title text-center center">
@@ -282,9 +282,11 @@
                     <i class="fa fa-database"></i>
                     <div class="padding-left"><h4>数据库</h4>
                         <p>1. 熟练掌握MySQL的库表设计，索引优化等</p>
-                        <p>2. 熟练使用sqlite参与项目开发</p>
-                        <p>3. 熟练掌握Redis、MongoDB、Memcached在项目中的开发使用</p>
-                        <p>4. 有千万级数据量查询开发及优化经验</p>
+                        <p>2. 熟练掌握MySQL的主从同步搭建</p>
+                        <p>3. 熟练掌握dble数据库中间件的搭建和配置</p>
+                        <p>4. 熟练使用sqlite参与项目开发</p>
+                        <p>5. 熟练掌握Redis、MongoDB、Memcached在项目中的开发使用</p>
+                        <p>6. 有千万级数据量查询开发及优化经验</p>
                     </div>
                     <i class="fa fa-html5"></i>
                     <div class="padding-left"><h4>前端</h4>
@@ -297,7 +299,7 @@
                         <p>1. 可带领一支团队独立开发项目</p>
                         <p>2. 能独立设计项目架构，制定开发规范，完成基础搭建</p>
                         <p>3. 可审核产品设计方案、UI等设计稿，完成项目代码审核，合理安排开发任务</p>
-                        <p>4. 有1年领队独立开发经验</p>
+                        <p>4. 有2年领队独立开发经验</p>
                     </div>
                     <i class="fa fa-linux"></i>
                     <div class="padding-left"><h4>Linux</h4>
@@ -323,28 +325,28 @@
             <div class="col-md-3 col-sm-3">
                 <div class="achivement-box">
                     <i class="fa fa-smile-o"></i>
-                    <span class="count">25</span>
+                    <span class="count"><?php echo (int)date('Y')-1993; ?></span>
                     <h4>Age Years</h4>
                 </div>
             </div>
             <div class="col-md-3 col-sm-3">
                 <div class="achivement-box">
                     <i class="fa fa-code"></i>
-                    <span class="count">100000</span>
+                    <span class="count">250000</span>
                     <h4>Code Amount</h4>
                 </div>
             </div>
             <div class="col-md-3 col-sm-3">
                 <div class="achivement-box">
                     <i class="fa fa-check-square-o"></i>
-                    <span class="count">9000</span>
+                    <span class="count"><?php echo date_diff(date_create('2015-05-10'), date_create(date('Y-m-d')))->format('%R%a') * 10; ?></span>
                     <h4>Work Hour</h4>
                 </div>
             </div>
             <div class="col-md-3 col-sm-3">
                 <div class="achivement-box">
                     <i class="fa fa-trophy"></i>
-                    <span class="count">10</span>
+                    <span class="count">15</span>
                     <h4>Projects Amount</h4>
                 </div>
             </div>
@@ -396,7 +398,7 @@
                     <div class="caption">
                         <h3>我的个人网站</h3>
                         <p>PHP+MySQL+HTML+CSS+JS</p>
-                        <p>我的个人网站，以Laravel框架为基础开发的一套博客程序，网址：<a href="https://52zoe.cn" target="_blank">https://52zoe.cn</a> 源码地址：https://github.com/MapleJson/blog</p>
+                        <p>我的个人网站，以Laravel框架为基础开发的一套博客程序，网址：<a href="https://52zoe.com" target="_blank">https://52zoe.com</a> 源码地址：https://github.com/MapleJson/blog</p>
                     </div>
                 </div>
             </div>
@@ -455,40 +457,40 @@
             <hr>
             <div class="clearfix"></div>
         </div>
-        <!--<div class="col-md-8 col-md-offset-2">-->
-        <!--<hr>-->
-        <!--<h3>给我发邮件</h3>-->
-        <!--<form name="sentMessage" id="contactForm" novalidate>-->
-        <!--<div class="row">-->
-        <!--<div class="col-md-6">-->
-        <!--<div class="form-group">-->
-        <!--<input type="text" id="name" class="form-control" placeholder="姓名" required="required">-->
-        <!--<p class="help-block text-danger"></p>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--<div class="col-md-6">-->
-        <!--<div class="form-group">-->
-        <!--<input type="email" id="email" class="form-control" placeholder="邮箱" required="required">-->
-        <!--<p class="help-block text-danger"></p>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--<div class="form-group">-->
-        <!--<textarea name="message" id="message" class="form-control" rows="4" placeholder="内容"-->
-        <!--required></textarea>-->
-        <!--<p class="help-block text-danger"></p>-->
-        <!--</div>-->
-        <!--<div id="success"></div>-->
-        <!--<button type="submit" class="btn btn-default">确认发送</button>-->
-        <!--</form>-->
-        <!--</div>-->
+<!--        <div class="col-md-8 col-md-offset-2">-->
+<!--        <hr>-->
+<!--        <h3>给我发邮件</h3>-->
+<!--        <form name="sentMessage" id="contactForm" novalidate>-->
+<!--        <div class="row">-->
+<!--        <div class="col-md-6">-->
+<!--        <div class="form-group">-->
+<!--        <input type="text" id="name" class="form-control" placeholder="姓名" required="required">-->
+<!--        <p class="help-block text-danger"></p>-->
+<!--        </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-6">-->
+<!--        <div class="form-group">-->
+<!--        <input type="email" id="email" class="form-control" placeholder="邮箱" required="required">-->
+<!--        <p class="help-block text-danger"></p>-->
+<!--        </div>-->
+<!--        </div>-->
+<!--        </div>-->
+<!--        <div class="form-group">-->
+<!--        <textarea name="message" id="message" class="form-control" rows="4" placeholder="内容"-->
+<!--        required></textarea>-->
+<!--        <p class="help-block text-danger"></p>-->
+<!--        </div>-->
+<!--        <div id="success"></div>-->
+<!--        <button type="submit" class="btn btn-default">确认发送</button>-->
+<!--        </form>-->
+<!--        </div>-->
     </div>
 </div>
 
 <nav id="footer">
     <div class="container">
         <div class="pull-left fnav">
-            <p>Copyright &copy; 2018 by 个人简历，<a href="http://www.miitbeian.gov.cn/" target="_blank">鄂ICP备18019316号-2</a> All Rights Reserved
+            <p>Copyright &copy; 2018 by Maple个人简历，<a href="http://www.miitbeian.gov.cn/" target="_blank">鄂ICP备18019316号-2</a> All Rights Reserved
         </div>
         <div class="pull-right fnav">
             <ul class="footer-social">
@@ -520,8 +522,7 @@
 <script type="text/javascript" src="js/contact_me.js"></script>
 <script type="text/javascript" src="js/owl.carousel.js"></script>
 
-<!-- Javascripts
-    ================================================== -->
+<!-- Javascripts ================================================== -->
 <script type="text/javascript" src="js/main.js"></script>
 
 <script>
