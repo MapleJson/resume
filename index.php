@@ -490,7 +490,7 @@
 <nav id="footer">
     <div class="container">
         <div class="pull-left fnav">
-            <p>Copyright &copy; 2018 by Maple个人简历，<a href="http://www.miitbeian.gov.cn/" target="_blank">鄂ICP备18019316号-2</a> All Rights Reserved
+            <p>Copyright &copy; 2018 by Maple个人简历，<a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备18019316号-2</a> All Rights Reserved
         </div>
         <div class="pull-right fnav">
             <ul class="footer-social">
